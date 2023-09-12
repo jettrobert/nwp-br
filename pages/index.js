@@ -131,10 +131,13 @@ export default MyBlog;
 
 export async function getStaticProps() {
   let posts = [];
+  
 
   try {
     posts = await api.posts.browse({
       limit: 15, // Feel free to adjust the limit
+      filter: 'tags:[br]' // Only fetch posts with the 'br' tag
+
     });
   } catch (error) {
     console.error(error);
