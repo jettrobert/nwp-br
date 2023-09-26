@@ -6,14 +6,14 @@ class MyDocument extends Document {
       <Html lang="pt">
         <Head>
           {/* Google Analytics */}
-          <script async src="https://www.googletagmanager.com/gtag/js?id=G-E9HQZT56CG"></script>
+          <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZTE9V5727V"></script>
           <script
             dangerouslySetInnerHTML={{
               __html: `
                 window.dataLayer = window.dataLayer || [];
                 function gtag(){dataLayer.push(arguments);}
                 gtag('js', new Date());
-                gtag('config', 'G-E9HQZT56CG');
+                gtag('config', 'G-ZTE9V5727V');
               `,
             }}
           />
